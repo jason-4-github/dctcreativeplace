@@ -5,7 +5,7 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import configureStore from './store/configureStore';
 import Page1 from './containers/Type1Container';
-import Page2 from './containers/Type2Container';
+// import Page2 from './containers/Type2Container';
 import registerServiceWorker from './registerServiceWorker';
 
 import 'antd/dist/antd.less';
