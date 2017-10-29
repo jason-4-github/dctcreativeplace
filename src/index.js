@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import configureStore from './store/configureStore';
-import Page1 from './containers/Type1Container';
+import HomePage from './containers/HomePageContainer';
 // import Page2 from './containers/Type2Container';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -17,7 +17,7 @@ const routerSet = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Page1} />
+        <Route path="/" exact component={HomePage} />
       </Switch>
     </BrowserRouter>
   );
