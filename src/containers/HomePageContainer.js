@@ -50,17 +50,16 @@ class HomePageContainer extends React.Component {
       <Row>
         <Layout className="layout">
           <Header className="header">
-            <Col span={10} style={{ color: 'white', fontSize: '20px' }}>LOGO + TITLE</Col>
+            <Col span={10} style={{ color: 'black', fontSize: '20px' }}>LOGO + TITLE</Col>
             <Col span={14}>
               <Menu
                 theme="dark"
                 mode="horizontal"
-                defaultSelectedKeys={['2']}
                 className="headerMenu"
               >
-                <Menu.Item key="1" style={{ color: 'white' }}>nav 1</Menu.Item>
-                <Menu.Item key="2" style={{ color: 'white' }}>nav 2</Menu.Item>
-                <Menu.Item key="3" style={{ color: 'white' }}>nav 3</Menu.Item>
+                <Menu.Item key="1" >Product</Menu.Item>
+                <Menu.Item key="2" >Q&A</Menu.Item>
+                <Menu.Item key="3" >登入</Menu.Item>
               </Menu>
             </Col>
           </Header>
@@ -71,6 +70,7 @@ class HomePageContainer extends React.Component {
                   <Row className="imgDiv">
                     <Col span={4} />
                     <Col span={16} className="labelBackground">
+                    <br /><br /><br />
                       <h1>進站圖片或標語</h1>
                       <img className="downIcon animated infinite bounce" src={downIcon} alt="" />
                     </Col>
@@ -139,7 +139,7 @@ class HomePageContainer extends React.Component {
               Contact us
             </Col>
             <Col span={12}>
-              ©2017 Created by Jason Hsu
+              ©2017 Created by DCT and Jason Hsu
             </Col>
           </Footer>
         </Layout>
