@@ -4,8 +4,7 @@ import { Provider } from 'react-redux';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import configureStore from './store/configureStore';
-import HomePage from './containers/HomePageContainer';
-// import Page2 from './containers/Type2Container';
+import IndexHome from './containers/IndexHome';
 import registerServiceWorker from './registerServiceWorker';
 
 import 'antd/dist/antd.less';
@@ -17,7 +16,7 @@ const routerSet = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={HomePage} />
+        <Route path="/" component={IndexHome} />
       </Switch>
     </BrowserRouter>
   );

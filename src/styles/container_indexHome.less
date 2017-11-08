@@ -1,0 +1,36 @@
+.layout {
+  .header {
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    .headerLink {
+      color: black;
+      &:hover{
+        color: #D42A2A;
+      }
+      &:active {
+        color: #A01F1F;
+      }
+    }
+    .ant-menu-dark {
+      background: white;
+      border-bottom-color: white;
+      .ant-menu-item-selected {
+        background-color: #049668;
+      }
+      .ant-menu-item {
+        color: black;
+      }
+    }
+  }
+  .content {
+    // padding-top: 50px;
+    // height: 90vh;
+    background-color: beige;
+  }
+}

@@ -1,56 +1,11 @@
-.layout {
-  .header {
-    background: white;
-    height: 50px;
-    line-height: 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    width: 100%;
-    .ant-menu-dark {
-      background: white;
-      border-bottom-color: white;
-      .ant-menu-item-selected {
-        background-color: #049668;
-      }
-      .ant-menu-item {
-        color: black;
-      }
-    }
-  }
-  .content {
-    background-color: white;
-    .contentTitle {
-      background: rgb(255, 255, 255);
-      height: 90vh;
-      text-align: center;
-      .imgDiv {
-        background-image: url('https://www.arch-world.com.tw/manage/VipAddProducts/201503041756329984B.jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        height: 100vh;
-        text-align: center;
-        .labelBackground {
-          opacity: 0.8;
-          height: 100%;
-          background-color: white;
-          .downIcon {
-            width: 10%;
-            position: absolute;
-            bottom: 10px;
-            left: 45%;
-          }
-        }
-      }
-    }
-    .placeListDiv {
-      height: 100vh;
-      overflow: auto;
-    }
-    .middleImgDiv {
-      background-image: url('http://retaildesignblog.net/wp-content/uploads/2016/08/Zahorsky-cafe-bistro-bakery-by-JRA-Prague-Czech-Republic.jpg');
+.homePageContainer {
+  background-color: white;
+  .contentTitle {
+    background: rgb(255, 255, 255);
+    height: 90vh;
+    text-align: center;
+    .imgDiv {
+      background-image: url('https://www.arch-world.com.tw/manage/VipAddProducts/201503041756329984B.jpg');
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-attachment: fixed;
@@ -60,22 +15,42 @@
         opacity: 0.8;
         height: 100%;
         background-color: white;
-      }
-    }
-    .homePageIntro {
-      height: 100vh;
-      text-align: center;
-      .subHomePageIntroIcon {
-        font-size: 250px;
-        padding-top: 10%;
-      }
-      .subHomePageIntroWords {
-        font-size: 30px;
+        .downIcon {
+          width: 10%;
+          position: absolute;
+          bottom: 10px;
+          left: 45%;
+        }
       }
     }
   }
-  .headerMenu {
-    line-height: 50px;
+  .placeListDiv {
+    height: 100vh;
+    overflow: auto;
+  }
+  .middleImgDiv {
+    background-image: url('http://retaildesignblog.net/wp-content/uploads/2016/08/Zahorsky-cafe-bistro-bakery-by-JRA-Prague-Czech-Republic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    .labelBackground {
+      opacity: 0.8;
+      height: 100%;
+      background-color: white;
+    }
+  }
+  .homePageIntro {
+    height: 100vh;
+    text-align: center;
+    .subHomePageIntroIcon {
+      font-size: 250px;
+      padding-top: 10%;
+    }
+    .subHomePageIntroWords {
+      font-size: 30px;
+    }
   }
 }
 .homePageModal {
